@@ -1,0 +1,178 @@
+img{
+	width: 175px;
+	display: block;
+	margin: 20px;
+	border: solid #000000;
+}
+body{
+	padding: 5px;
+	margin: 5px;
+}
+header{
+	background-image: url(https://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #B3B3B3;
+	height: 200%;
+	padding: 30px;
+	
+}
+h1{
+	color: #FFFFFF;
+	text-align: center;
+	font-variant: small-caps;
+	text-transform: uppercase;
+}
+h2{
+	color: #000000;
+	text-transform: uppercase;
+}
+
+
+.active{
+	background: #FFFFFF;
+
+}
+
+
+nav a{
+	color: #000000;
+	display: inline-block;
+	background-color: #FFFFFF40;
+	width:22%;
+	text-align: center;
+	margin-right: 20px;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 10px;
+}
+.left{
+	width:15%;
+	display:inline-block;
+	float:left;
+	background: #334d00;
+	height: 200%;
+	padding-bottom: 20%;
+}
+.right{
+	padding-left: 0px; 
+	width:84%;
+	display:inline-block;
+	float: right;
+
+}
+
+
+table{
+	border: 2px solid #fff;
+	border-radius: 5px 5px 0 0;
+	font-size: 100%;
+	font-family: arial;
+	padding: 2px;
+	margin: 2px;
+	margin-left: 80px;
+}
+th{
+	text-align: center;
+	color: #fff;
+	background: linear-gradient(#008000,#009900);
+	width: 100px;
+	line-height: 20px;
+	border: 1px solid #fff;
+	border-bottom-width: 3px;
+	border-bottom-color: #80ff80;
+	padding: 8px;
+	border-radius: 5px 5px 0 0;
+
+}
+td{
+	border: 1px solid #fff;
+	width: 200px;
+	line-height: 2px;
+	margin: 2px;
+	padding: 8px;
+	background-color: #ccffcc;
+	text-align: center;
+	
+}
+th:first-child{
+	text-align: left;
+}
+td:first-child{
+	width: 400px;
+	height: 20px;
+	text-align: left;
+}
+tr:first-child{
+	opacity: 1;
+}
+tr{
+	opacity: .7;
+}
+tr:hover{
+	opacity: 1;
+}
+
+
+
+
+/*
+
+table{
+  color: black;
+  background-color: rgb(212,220,225,1);
+  border:rgb(0, 0, 0) 3px solid;
+  border-radius: 20px 20px 20px 20px;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+tr:last-child>td:last-child{
+  border-radius: 0 0 20px 0;
+}
+tr:last-child>td:first-child{
+  border-radius: 0 0 0 20px;
+}
+
+tr:first-child>th{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+tr:first-child>th:last-child{
+  border-radius: 0 20px 0 0;
+}
+tr:first-child>th:first-child{
+  border-radius: 20px 0 0 0;
+}
+td{
+  width: 300px;
+  height: 45px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+th:first-child::before{
+  content: url(images/uniform.png);
+}
+th:nth-child(2)::before {
+  content: url(images/location.png);
+}
+th:last-child::before {
+  content: url(images/gender.png);
+}
+tr th{
+  font-family: "Montserrat ExtraBold";
+  background-color: orange;
+  color: white;
+  vertical-align: middle;
+}
+tr:hover{
+  background-color: rgb(186, 193, 197);
+}
+th{
+  vertical-align: middle;
+}
+
+*/
